@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "name": "cf-pages-rebuild",
+  "version": "1.0.0",
+  "description": "Cloudflare Worker to trigger a Cloudflare Pages rebuild as a webhook",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write '**/*.{js,css,json,md}'"
+  },
+  "author": "alyx <alyx@malkier.net>",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  }
+}
